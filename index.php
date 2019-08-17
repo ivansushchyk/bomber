@@ -30,7 +30,7 @@
 </head>
 <body>
 <div class="container">
-    <table cellpadding="0" cellspacing="0" border="1">
+    <table id='table' cellpadding="0" cellspacing="0" border="1">
         <tr>
             <td class="cell"></td>
             <td class="cell"></td>
@@ -152,8 +152,10 @@
             <td class="cell"></td>
         </tr>
     </table>
-</body>
 </div>
+    <h2> left open - <span id="count"> </span> </h2>
+</body>
+
 </HTML>
 
 <script src="script.js"></script>
